@@ -1,5 +1,5 @@
 # Efficient Human Detection Leveraging YOLOv8 Nano on ROS: A Comparative Study of RGB and RGB-D Cameras
-[Daye Lee](https://github.com/Daye-Lee18), [Jiho Park](https://github.com/zihos) and [Minseok Kong](https://github.com/kongminseok)
+[Daye Lee](https://github.com/Daye-Lee18), [Jiho Park](https://github.com/zihos), [Minseok Kong](https://github.com/kongminseok)
 
 
 ## Installation
