@@ -196,5 +196,4 @@
 This work was supported by Institute of Information &amp; communications Technology Planning &amp; Evaluation (IITP) grant funded by the Korea government(MSIT) (RS-2022-00143911, AI Excellence Global Innovative Leader Education Program)
 
 ## Collaborator
-Daye Lee[https://github.com/Daye-Lee18]
-Jiho Park[https://github.com/zihos]
+[Daye Lee](https://github.com/Daye-Lee18), [Jiho Park](https://github.com/zihos)
