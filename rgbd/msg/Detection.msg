@@ -1,0 +1,3 @@
+string class_name
+float32 confidence
+BoundingBox2D bbox_2d

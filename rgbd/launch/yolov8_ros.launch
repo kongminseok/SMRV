@@ -1,0 +1,10 @@
+<launch>
+
+  <!--rgbd detection Node -->
+  <node name="rgbd_detection" pkg="rgbd" type="rgbd_detection.py" output="screen">
+  </node>
+  
+  <node name="rgbd_dsubscriberetection" pkg="rgbd" type="subscriber.py" output="screen">
+  </node>
+
+</launch>
