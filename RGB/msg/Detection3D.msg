@@ -1,0 +1,4 @@
+std_msgs/Header header
+string class_name
+float32 confidence
+BoundingBox3D bbox_3d

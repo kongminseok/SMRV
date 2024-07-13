@@ -1,0 +1,19 @@
+<launch>
+  <arg name="real_time" default="True"/>
+  <arg name="is_bev_plot" default="True"/>
+  <arg name="is_img_w_3d" default="False"/>
+  <arg name="is_marker" default="False"/>
+
+  <!-- Video Publisher Node -->
+  <!-- <node name="video_publisher" pkg="RGB" type="video_publisher.py" output="screen">
+  </node> -->
+
+  <!-- YOLOv8 Node -->
+  <node name="yolov8_node" pkg="RGB" type="yolov8_node.py" output="screen" args="--real_time $(arg real_time)">
+  </node>
+
+  <!--detection 3D Node -->
+  <node name="mobilenet_node" pkg="RGB" type="mobilenet_node.py" output="screen" args="--real_time $(arg real_time)">
+  </node>
+
+</launch>
