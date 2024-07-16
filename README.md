@@ -8,6 +8,8 @@
     <a href='https://github.com/zihos' target='_blank'>Jiho Park</a><sup>1</sup>&emsp;
 </div>
 
+</div>
+
 
 ## Installation
 ### Prerequisites
