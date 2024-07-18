@@ -10,8 +10,8 @@
 
 <div>
     <sup>1</sup>Sogang University&emsp; 
-    <sup>2</sup>Dongkuk University&emsp; 
-    <sup>3</sup>Seoul National University&emsp;
+    <sup>2</sup>Seoul National University&emsp; 
+    <sup>3</sup>Dongkuk University&emsp;
 </div>
 
 </div>
