@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Efficient Human Detection Leveraging YOLOv8 Nano on ROS: A Comparative Study of RGB and RGB-D Cameras</h1>
+<h1>Simulating Mobile Robot Vision: An Analysis of RGB-D versus RGB-Based Distance Accuracy and CPU Optimization</h1>
 
 <div>
     <a href='https://github.com/kongminseok' target='_blank'>Minseok Kong</a><sup>1</sup>&emsp;
@@ -11,7 +11,7 @@
 <div>
     <sup>1</sup>Sogang University&emsp; 
     <sup>2</sup>Seoul National University&emsp; 
-    <sup>3</sup>Dongkuk University&emsp;
+    <sup>3</sup>Dongguk University&emsp;
 </div>
 
 </div>
