@@ -29,7 +29,7 @@ model = load_model('/home/kongminseok/문서/my_pkg/my_pkg/model/mobilenetv2_wei
 
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 
-# 기본 양자화: 기본 양자화(tf.lite.Optimize.DEFAULT)를 사용할 때, 변환기는 모델의 구조와 데이터 분포를 분석하여 최적의 양자화 방법을 선택한다.
+# INT8 양자화 적용: TensorFlow Lite 변환기는 Optimize.DEFAULT 설정 시 가중치와 활성값을 8비트 정수로 양자화하여 메모리 사용을 줄이고 추론 속도를 높인다.
 converter.optimizations = [tf.lite.Optimize.DEFAULT]
 tflite_model = converter.convert()
 
