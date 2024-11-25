@@ -20,7 +20,15 @@
 ## Model
 ### Prerequisites
 - TensorFlow 2.x (tested on 2.15.0, Ubuntu 20.04)
-- [Install a TensorFlow version compatible with your CUDA and Python versions.](https://www.tensorflow.org/install/source?hl=ko&_gl=1*kgcey7*_up*MQ..*_ga*ODI0ODMxMTU3LjE3MzI1MDkyNDI.*_ga_W0YLR4190T*MTczMjUwOTI0Mi4xLjAuMTczMjUwOTI0Mi4wLjAuMA..#gpu_support_2) 
+- [Install a TensorFlow version compatible with your CUDA and Python versions.](https://www.tensorflow.org/install/source?hl=ko&_gl=1*kgcey7*_up*MQ..*_ga*ODI0ODMxMTU3LjE3MzI1MDkyNDI.*_ga_W0YLR4190T*MTczMjUwOTI0Mi4xLjAuMTczMjUwOTI0Mi4wLjAuMA..#gpu_support_2)
+  
+  ```bash
+    cd ~
+    mkdir -p ~/catkin_ws/src
+    cd ~/catkin_ws
+    catkin_make
+    source devel/setup.bash
+    ```
 
 
 ## Installation for package execution
