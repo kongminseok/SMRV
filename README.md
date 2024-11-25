@@ -17,13 +17,13 @@
 </div>
 
 
-## Model
+## Development guide for depth estimator 
 ### Prerequisites
 - TensorFlow 2.x (tested on 2.15.0, Ubuntu 20.04)
 - [Install a TensorFlow version compatible with your CUDA and Python versions](https://www.tensorflow.org/install/source?hl=ko&_gl=1*kgcey7*_up*MQ..*_ga*ODI0ODMxMTU3LjE3MzI1MDkyNDI.*_ga_W0YLR4190T*MTczMjUwOTI0Mi4xLjAuMTczMjUwOTI0Mi4wLjAuMA..#gpu_support_2)
 
   
-## Installation for package execution
+## Installation guide for package execution
 ### Prerequisites
 - Python 3.x (tested on 3.8.10, Ubuntu 20.04)
 - ROS (tested on ROS neotic)
