@@ -25,7 +25,7 @@
   
 ## Installation for Package Execution
 ### Prerequisites
-- Python 3.x (tested on 3.8.10, Ubuntu 20.04)
+- Python 3.x (tested on 3.8.10, Ubuntu 20.0
 - ROS (tested on ROS neotic)
 
 - catkin workspace
