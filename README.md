@@ -66,7 +66,7 @@ https://www.tensorflow.org/install/source?hl=ko&_gl=1*kgcey7*_up*MQ..*_ga*ODI0OD
     realsense-viewer
     ```
     
-    **dynamic_reconfigure**
+    **ddynamic_reconfigure**
     
     ```bash
     cd ~/catkin_ws/src
