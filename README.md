@@ -63,7 +63,7 @@
     realsense-viewer
     ```
     
-    **ddynamic_reconfigure**
+    **dynamic_reconfigure**
     
     ```bash
     cd ~/catkin_ws/src
