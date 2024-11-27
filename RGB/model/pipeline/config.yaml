@@ -17,8 +17,3 @@ VEHICLES:
     - Truck
     - Van
     - Tram
-
-DATA:
-  ROOT_DIR: "./dataset/kitti" # Root directory for data
-  LABEL_DIR: "./dataset/kitti/label_2"  # Directory for label files
-  IMAGE_DIR: "./dataset/kitti/image_2"  # Directory for image files
