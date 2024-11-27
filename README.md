@@ -30,12 +30,12 @@
     ```
 
 - layout
-  
-    ```bash
-    SMRV
-    |── RGB
-    |   └── Rider_Position_Encoding.png
-    ├── data
+
+```bash
+SMRV
+├── RGB
+|   └── Rider_Position_Encoding.png
+├── data
     |   |── data_analysis.ipynb
     |   |── data.py
     |   └── ffmpeg.py
