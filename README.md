@@ -31,7 +31,7 @@
 
 - layout
 
-    ```bash
+    ```
     SMRV
     ├── RGB
     |    ├── model
@@ -40,12 +40,17 @@
     |    |    |    |    └── kitti
     |    |    |    |         ├──image_2
     |    |    |    |         └──label_2
-    |    |    |    ├── dataset
-    |   ├── CMakeLists.txt
-    |   ├── install.md
-    |   ├── pakage.xml
-    |   ├── requirements.txt
-    |   └── setup.py
+    |    |    |    ├── history
+    |    |    |    |    ├── mobilenetv2_training_history.csv
+    |    |    |    |    └── mobilenetv2_results_plot.png
+    |    |    |    ├── logs
+    |    |    |    ├── config.yaml
+    |    |    |    └── model_conversion_pipeline.py
+    |    |    ├── quantized_model_openvino
+    |    |    ├── yolov8n_openvion_model
+    |    |    ├── mobilenetv2_weights.h5
+    |    |    └── quantized_model.tflite      
+    |    └── ...
     ├── rgbd
     |   └── ...
     ├── README.md
