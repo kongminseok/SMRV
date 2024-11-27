@@ -485,6 +485,19 @@ def process_model_to_openvino(
             
 # Function to handle copying and deletion
 def process_yolo_to_openvino(source='yolov8n_openvino_model', destinations='../'):
+    """
+    Load a YOLOv8n PyTorch model, export it to OpenVINO format, 
+    copy the exported model folder to multiple destinations, 
+    and clean up the source folder after the process.
+
+    Args:
+        source (str): The source folder containing the exported OpenVINO model.
+        destinations (list or str): List of paths or a single path where the source folder will be copied.
+
+    Raises:
+        Exception: If errors occur during copying or deleting folders.
+    """
+    
     # Load a YOLOv8n PyTorch model
     model = YOLO("yolov8n.pt")
 
@@ -666,6 +679,7 @@ if __name__ == '__main__':
         quantize=True,
         openvino_output_dir=args.openvino_output_dir
     )
-    
+
+    # Load a YOLOv8n PyTorch model, export it to OpenVINO format
     process_yolo_to_openvino(source='yolov8n_openvino_model', destinations='../')
     
