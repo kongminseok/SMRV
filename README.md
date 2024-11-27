@@ -110,9 +110,7 @@
     
     ```bash
     cd ~
-    git clone https://github.com/zihos/iitp.git
-    # enter your git username
-    # get the developer token from the git setting and enter the token as a password
+    git clone https://github.com/zihos/iitp.git](https://github.com/kongminseok/SMRV.git
     
     ```
     
