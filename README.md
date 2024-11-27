@@ -31,26 +31,23 @@
 
 - layout
 
-```bash
-SMRV
-├── RGB
-|   └── Rider_Position_Encoding.png
-├── data
-    |   |── data_analysis.ipynb
-    |   |── data.py
-    |   └── ffmpeg.py
+    ```bash
+    SMRV
+    ├── RGB
+    |    ├── model
+    |    |    ├── pipeline
+    |    |    |    ├── dataset
+    |    |    |    |    └── kitti
+    |    |    |    |         ├──image_2
+    |    |    |    |         └──label_2
+    |    |    |    ├── dataset
+    |   ├── CMakeLists.txt
+    |   ├── install.md
+    |   ├── pakage.xml
+    |   ├── requirements.txt
+    |   └── setup.py
     ├── rgbd
-    |   |── images
-    |   |   |── train
-    |   |   └── test
-    |   |── labels
-    |   |   └──  train
-    |   |── videos
-    |   |   |── train
-    |   |   └── test
-    |   |── gt.txt
-    |   |── labels.txt
-    |   └── ReadMe.txt
+    |   └── ...
     ├── README.md
     └── requirement.txt
     ```
