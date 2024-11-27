@@ -213,4 +213,4 @@
 </hr>
 
 ## Acknowledgement
-This work was supported by Institute of Information &amp; communications Technology Planning &amp; Evaluation (SMRV) grant funded by the Korea government(MSIT) (RS-2022-00143911, AI Excellence Global Innovative Leader Education Program)
+This work was supported by Institute of Information &amp; communications Technology Planning &amp; Evaluation (IITP) grant funded by the Korea government(MSIT) (RS-2022-00143911, AI Excellence Global Innovative Leader Education Program)
