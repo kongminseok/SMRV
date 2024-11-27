@@ -43,8 +43,8 @@
     |    |    |    |         ├──image_2
     |    |    |    |         └──label_2
     |    |    |    ├── history
-    |    |    |    |    ├── mobilenetv2_training_history.csv
-    |    |    |    |    └── mobilenetv2_results_plot.png
+    |    |    |    |    ├── mobilenetv2_results_plot.png
+    |    |    |    |    └── mobilenetv2_training_history.csv
     |    |    |    ├── logs
     |    |    |    ├── config.yaml
     |    |    |    └── model_conversion_pipeline.py
