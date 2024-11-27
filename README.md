@@ -28,9 +28,9 @@
     cd ~
     git clone https://github.com/kongminseok/SMRV.git
     ```
-- Kitti dataset
-
-  [Homepage](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) and [Download](https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip)
+- Dataset Preparation
+  
+  KITTI Dataset: [Homepage](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) and [Download](https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip)
 
 
 - Layout
