@@ -22,11 +22,43 @@
 - Python 3.x (tested on 3.11.10, Ubuntu 20.04)
 - TensorFlow 2.x (tested on 2.10.0, Ubuntu 20.04) -> [Install a TensorFlow version compatible with your CUDA, cuDNN and Python versions](https://www.tensorflow.org/install/source?hl=ko&_gl=1*kgcey7*_up*MQ..*_ga*ODI0ODMxMTU3LjE3MzI1MDkyNDI.*_ga_W0YLR4190T*MTczMjUwOTI0Mi4xLjAuMTczMjUwOTI0Mi4wLjAuMA..#gpu_support_2)
 
-- Run the model conversion pipeline
-    
+- git clone
+  
     ```bash
     cd ~
     git clone https://github.com/kongminseok/SMRV.git
+    ```
+
+- layout
+  
+    ```bash
+    aicity
+    |── assets
+    |   └── Rider_Position_Encoding.png
+    |── cfg
+    |   └── yolov8.yaml
+    ├── data
+    |   |── data_analysis.ipynb
+    |   |── data.py
+    |   └── ffmpeg.py
+    ├── datasets
+    |   |── images
+    |   |   |── train
+    |   |   └── test
+    |   |── labels
+    |   |   └──  train
+    |   |── videos
+    |   |   |── train
+    |   |   └── test
+    |   |── gt.txt
+    |   |── labels.txt
+    |   └── ReadMe.txt
+    └── yolov8.py
+    ```
+
+- Run the model conversion pipeline
+    
+    ```bash
     cd SMRV/RGB/model/pipeline
     python model_conversion_pipeline.py
     ```
