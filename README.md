@@ -65,7 +65,7 @@
     └── requirements.txt
     ```
 
-- Run the model conversion pipeline
+- Run the model conversion pipeline & yolo conversion
     
     ```bash
     cd ~/SMRV/RGB/model/pipeline
