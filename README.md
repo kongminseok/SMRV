@@ -57,6 +57,32 @@
     └── requirement.txt
     ```
 
+# SMRV
+
+- **RGB**
+  - **model**
+    - **pipeline**
+      - **dataset**
+        - **kitti**
+          - image_2
+          - label_2
+      - **history**
+        - mobilenetv2_training_history.csv
+        - mobilenetv2_results_plot.png
+      - logs
+      - config.yaml
+      - model_conversion_pipeline.py
+    - quantized_model_openvino
+    - yolov8n_openvion_model
+    - mobilenetv2_weights.h5
+    - quantized_model.tflite
+  - ...
+- **rgbd**
+  - ...
+- README.md
+- requirement.txt
+
+
 - Run the model conversion pipeline
     
     ```bash
