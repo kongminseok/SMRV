@@ -27,7 +27,8 @@
     ```bash
     cd ~
     git clone https://github.com/kongminseok/SMRV.git
-    
+    cd SMRV/RGB/model/pipeline
+    python model_conversion_pipeline.py
     ```
 
   
