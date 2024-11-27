@@ -28,8 +28,10 @@
     cd ~
     git clone https://github.com/kongminseok/SMRV.git
     ```
+- Data preparation
+  [download](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
-- layout
+- Layout
 
     ```
     SMRV
