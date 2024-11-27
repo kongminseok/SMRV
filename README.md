@@ -22,7 +22,7 @@
 - Python 3.x (tested on 3.11.10, Ubuntu 20.04)
 - TensorFlow 2.x (tested on 2.10.0, Ubuntu 20.04) -> [Install a TensorFlow version compatible with your CUDA, cuDNN and Python versions](https://www.tensorflow.org/install/source?hl=ko&_gl=1*kgcey7*_up*MQ..*_ga*ODI0ODMxMTU3LjE3MzI1MDkyNDI.*_ga_W0YLR4190T*MTczMjUwOTI0Mi4xLjAuMTczMjUwOTI0Mi4wLjAuMA..#gpu_support_2)
 
-- git clone
+- Git Clone
   
     ```bash
     cd ~
@@ -32,16 +32,14 @@
 - layout
   
     ```bash
-    aicity
-    |── assets
+    SMRV
+    |── RGB
     |   └── Rider_Position_Encoding.png
-    |── cfg
-    |   └── yolov8.yaml
     ├── data
     |   |── data_analysis.ipynb
     |   |── data.py
     |   └── ffmpeg.py
-    ├── datasets
+    ├── rgbd
     |   |── images
     |   |   |── train
     |   |   └── test
@@ -53,7 +51,8 @@
     |   |── gt.txt
     |   |── labels.txt
     |   └── ReadMe.txt
-    └── yolov8.py
+    ├── README.md
+    └── requirement.txt
     ```
 
 - Run the model conversion pipeline
