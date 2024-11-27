@@ -52,12 +52,15 @@
     |    |    |    ├── config.yaml
     |    |    |    └── model_conversion_pipeline.py
     |    |    ├── quantized_model_openvino
-    |    |    ├── yolov8n_openvion_model
+    |    |    ├── yolov8n_openvino_model
     |    |    ├── mobilenetv2_weights.h5
     |    |    └── quantized_model.tflite      
     |    └── ...
     ├── rgbd
-    |   └── ...
+    |    ├── model
+    |    |    ├── yolov8n_openvino_model
+    |    |    └── yolo_conversion.py
+    |    └── ...
     ├── README.md
     └── requirements.txt
     ```
