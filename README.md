@@ -16,7 +16,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="https://www.mdpi.com/2076-3417/13/1/633#B10-applsci-13-00633" target='_blank'>[paper]</a> •
+        • <a href="https://github.com/kongminseok" target='_blank'>[paper]</a> •
     </h4>
 </div>
 
