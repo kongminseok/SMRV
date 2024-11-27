@@ -4,8 +4,8 @@
 
 <div>
     <a href='https://github.com/kongminseok' target='_blank'>Minseok Kong</a><sup>1</sup>&emsp;
-    <a href='https://github.com/Daye-Lee18' target='_blank'>Jiho Park</a><sup>2</sup>&emsp;
-    <a href='https://github.com/zihos' target='_blank'>Daye Lee</a><sup>3</sup>&emsp;
+    <a href='https://github.com/zihos' target='_blank'>Jiho Park</a><sup>2</sup>&emsp;
+    <a href='https://github.com/Daye-Lee18' target='_blank'>Daye Lee</a><sup>3</sup>&emsp;
 </div>
 
 <div>
