@@ -22,6 +22,14 @@
 - Python 3.x (tested on 3.11.10, Ubuntu 20.04)
 - TensorFlow 2.x (tested on 2.14.0, Ubuntu 20.04) -> [Install a TensorFlow version compatible with your CUDA, cuDNN and Python versions](https://www.tensorflow.org/install/source?hl=ko&_gl=1*kgcey7*_up*MQ..*_ga*ODI0ODMxMTU3LjE3MzI1MDkyNDI.*_ga_W0YLR4190T*MTczMjUwOTI0Mi4xLjAuMTczMjUwOTI0Mi4wLjAuMA..#gpu_support_2)
 
+- git clone
+    
+    ```bash
+    cd ~
+    git clone https://github.com/kongminseok/SMRV.git
+    
+    ```
+
   
 ## Package Installation
 ### Prerequisites
@@ -105,14 +113,6 @@
     **camera node run with the preset:**
     
     `roslaunch realsense2_camera rs_camera.launch depth_width:=640 depth_height:=480 color_width:=640 color_height:=480 json_file_path:=/home/testzio/catkin_ws/src/realsense-ros/HighAccuracyPreset.json`
-    
-- git clone
-    
-    ```bash
-    cd ~
-    git clone https://github.com/zihos/iitp.git](https://github.com/kongminseok/SMRV.git
-    
-    ```
     
 - For RGB package
     
