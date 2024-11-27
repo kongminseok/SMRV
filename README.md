@@ -65,10 +65,10 @@
 - Run the model conversion pipeline
     
     ```bash
-    cd SMRV/RGB/model/pipeline
+    cd ~/SMRV/RGB/model/pipeline
     python model_conversion_pipeline.py
 
-    cd SMRV/rgbd/model
+    cd ~/SMRV/rgbd/model
     python yolo_conversion.py
     ```
 
