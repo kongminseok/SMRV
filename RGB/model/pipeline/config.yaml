@@ -1,0 +1,24 @@
+GENERAL:
+  BIN: 6                      # Number of orientation bins
+  BACKBONE: mobilenetv2       # Backbone model architecture
+  OVERLAP: 0.1                # Overlap for anchors
+  W: 1.0                      # Weight parameter
+  ALPHA: 1.0                  # Alpha parameter
+  MAX_JIT: 3                  # Maximum jitter for data augmentation
+  NORM_H: 224                 # Normalized image height
+  NORM_W: 224                 # Normalized image width
+  BATCH_SIZE: 8               # Batch size for training
+  EPOCH: 10                   # Epoch for training
+  AUGMENTATION: false         # Data augmentation toggle
+
+VEHICLES:
+  VEHICLES_LIST:              # List of vehicle classes
+    - Car
+    - Truck
+    - Van
+    - Tram
+
+DATA:
+  ROOT_DIR: "./dataset/kitti" # Root directory for data
+  LABEL_DIR: "./dataset/kitti/label_2"  # Directory for label files
+  IMAGE_DIR: "./dataset/kitti/image_2"  # Directory for image files
