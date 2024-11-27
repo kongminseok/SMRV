@@ -54,7 +54,7 @@
     ├── rgbd
     |   └── ...
     ├── README.md
-    └── requirement.txt
+    └── requirements.txt
     ```
 
 - Run the model conversion pipeline
