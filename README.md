@@ -117,7 +117,7 @@
 - For RGB package
     
     ```jsx
-    mv ~/iitp/RGB ~/catkin_ws/src
+    mv ~/SMRV/RGB ~/catkin_ws/src
     cd ~/catkin_ws/src/RGB/src
     chmod +x mobilenet_node.py 
     chmod +x video_publisher.py
@@ -138,7 +138,7 @@
     pip install networkx==2.5.1
     pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cpu
     
-    # install tensor flow
+    # install TensorFlow
     pip install --upgrade pip
     pip install testresources
     pip install --upgrade setuptools
@@ -176,7 +176,7 @@
 - For RGBD package
     
     ```jsx
-    cd ~/iitp
+    cd ~/SMRV
     cp -r rgbd ~/catkin_ws/src/
     cd ~/catkin_ws/src/rgbd/src
     chmod +x rgbd_detection.py
@@ -213,4 +213,4 @@
 </hr>
 
 ## Acknowledgement
-This work was supported by Institute of Information &amp; communications Technology Planning &amp; Evaluation (IITP) grant funded by the Korea government(MSIT) (RS-2022-00143911, AI Excellence Global Innovative Leader Education Program)
+This work was supported by Institute of Information &amp; communications Technology Planning &amp; Evaluation (SMRV) grant funded by the Korea government(MSIT) (RS-2022-00143911, AI Excellence Global Innovative Leader Education Program)
