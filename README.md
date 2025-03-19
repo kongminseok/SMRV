@@ -16,7 +16,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="https://github.com/kongminseok" target='_blank'>[paper]</a> •
+        • <a href="https://ieeexplore.ieee.org/document/10920652" target='_blank'>[paper]</a> •
     </h4>
 </div>
 
